@@ -1,0 +1,4 @@
+theme/pelican-striped-html5/.git
+output
+__pycache__/
+*.pyc

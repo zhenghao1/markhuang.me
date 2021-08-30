@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Mark Huang'
 SITENAME = 'Mark Huang'
 SITEURL = 'https://markhuang.me'
-THEME = 'pelican-striped-html5up'
+THEME = './theme/pelican-striped-html5up'
 DISQUS_SITENAME = 'codestumps'
 PATH = 'content'
 TIMEZONE = 'Asia/Singapore'
@@ -36,7 +36,8 @@ SOCIAL = (('Facebook', 'https://www.facebook.com/huang.zhenghao/'),
           ('LinkedIn', 'https://www.linkedin.com/in/zhenghao1'),)
 
 DEFAULT_PAGINATION = 8
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 PLUGINS = ['neighbors']
 
 # Uncomment following line if you want document-relative URLs when developing

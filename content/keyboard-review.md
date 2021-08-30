@@ -1,5 +1,5 @@
-Title: My First Review
+Title: How to deploy Pelican onto Vercel
 Date: 2021-11-03 10:29
 Category: Review
 
-Following is a review of my mechanical keyboard.
+This is dead easy!
