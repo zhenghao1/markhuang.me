@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Mark Huang'
 SITENAME = 'Mark Huang'
 SITEURL = 'https://markhuang.me'
-THEME = './theme/pelican-striped-html5up'
+THEME = 'iris'
 DISQUS_SITENAME = 'codestumps'
 PATH = 'content'
 TIMEZONE = 'Asia/Singapore'
@@ -16,6 +16,12 @@ USE_FOLDER_AS_CATEGORY = True
 DEFAULT_CATEGORY = 'General'
 DISPLAY_CATEGORIES_ON_MENU = True
 DEFAULT_DATE_FORMAT = '%d %B, %Y'
+
+# Display options
+DISPLAY_HEADER = True
+DISPLAY_FOOTER = True
+DISPLAY_HOME = True
+DISPLAY_MENU = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -36,8 +42,11 @@ SOCIAL = (('Facebook', 'https://www.facebook.com/huang.zhenghao/'),
           ('LinkedIn', 'https://www.linkedin.com/in/zhenghao1'),)
 
 DEFAULT_PAGINATION = 8
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 PLUGINS = ['neighbors']
 
 # Uncomment following line if you want document-relative URLs when developing
