@@ -1,31 +1,31 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: "Mark Huang's Blog",
+  author: 'Mark Huang',
+  headerTitle: 'Mark on software',
+  description:
+    'A blog about all things software, coding, management and career success at the workplace.',
   language: 'en-us',
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://markhuang.me',
+  siteRepo: 'https://github.com/zhenghao1/markhuang.me',
   siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  image: '/static/images/profilepic.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'zhenghao1@me.com',
+  github: 'https://github.com/zhenghao1',
+  twitter: 'https://twitter.com/zhenghao1',
+  facebook: 'https://facebook.com/huang.zhenghao',
+  linkedin: 'https://www.linkedin.com/in/zhenghao1',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'UA-107332439-1', // e.g. UA-000000-2 or G-XXXXXXX
   },
   comment: {
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: 'disqus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/

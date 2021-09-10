@@ -1,16 +1,17 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Mark Huang
+avatar: /static/images/profilepic.jpg
+occupation: Software Engineer
+company: You Tiao Man
+email: zhenghao1@me.com
+twitter: https://twitter.com/zhenghao1
+linkedin: https://www.linkedin.com/in/zhenghao1
+github: https://github.com/zhenghao1
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Mark Huang is a Singaporean software engineer of 13 years. He currently works at his wife's food manufacturing business as the Chief Technology Officer.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+His focus is mainly in full stack development using various backends and frontend libraries/frameworks to create software. He also has vast experience managing
+software teams of various sizes and experience.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+He enjoys "paying it forward" through initiatives like Code Club where he volunteers to teach programming to school children to get them interested in STEM subjects.
